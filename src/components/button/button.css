@@ -1,0 +1,15 @@
+.bot{
+    background-color: #3278f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 32px 0;
+}
+
+.bot:hover{
+    color: #95FFd4;
+}
