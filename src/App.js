@@ -51,6 +51,9 @@ function App() {
   }
   return (
     <div className="App">
+      <header>
+      <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </header>
       <Banner className="banner"/>
       <Formulario times={times.map(time =>time.nome)} aoColaboradorCadastrado={aoNovoColaboradorAdicionado}/>
       {times.map(time => <Time 
